@@ -27,7 +27,6 @@ class MovieCell: UITableViewCell {
         l.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
         l.textAlignment = .left
         l.textColor = .white
-        l.text = "Arrival"
         return l
     }()
     
@@ -38,7 +37,6 @@ class MovieCell: UITableViewCell {
         l.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.caption1)
         l.textAlignment = .left
         l.textColor = .white
-        l.text = "release date: November 11, 2016"
         return l
     }()
     
@@ -47,7 +45,6 @@ class MovieCell: UITableViewCell {
         l.numberOfLines = 0
         l.translatesAutoresizingMaskIntoConstraints = false
         l.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
-        l.text = "9.99 USD"
         l.textAlignment = .right
         l.textColor = .white
         return l
