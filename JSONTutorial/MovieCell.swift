@@ -17,6 +17,7 @@ class MovieCell: UITableViewCell {
         iv.layer.cornerRadius = 40
         iv.backgroundColor = #colorLiteral(red: 1, green: 0.3864146769, blue: 0.4975627065, alpha: 1)
         iv.translatesAutoresizingMaskIntoConstraints = false
+        iv.clipsToBounds = true
         return iv
     }()
     

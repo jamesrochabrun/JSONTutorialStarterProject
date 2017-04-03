@@ -24,7 +24,7 @@ class MovieFeedVC: UITableViewController {
     
     func dummyMovie() {
         let dummyPrice = Price(amount: "9.99", currency: "USD")
-        let dummyMovie = Movie(title: "Arrival", imageURL: nil, releaseDate: "November 11, 2016", purchasePrice: dummyPrice, summary: nil)
+        let dummyMovie = Movie(title: "Arrival", imageURL: "dummyURL", releaseDate: "November 11, 2016", purchasePrice: dummyPrice, summary: "dummyOverview")
         moviesArray.append(dummyMovie)
     }
     

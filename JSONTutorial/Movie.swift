@@ -12,13 +12,14 @@ import UIKit
 struct Movie {
     
     let title: String
-    let imageURL: String?
+    let imageURL: String
     let releaseDate: String
     let purchasePrice: Price
-    let summary: String?
+    let summary: String
 }
 
 struct Price {
     let amount: String
     let currency: String
 }
+
